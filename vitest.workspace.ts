@@ -1,4 +1,3 @@
 export default [
-  'examples/*',
-  'packages/*',
+  'apps/*',
 ]
