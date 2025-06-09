@@ -33,7 +33,7 @@
     "@antfu/eslint-config": "^4.14.1",
     "@antfu/ni": "^25.0.0",
     "@antfu/nip": "^0.1.0",
-    "@arethetypeswrong/cli": "^0.18.1",
+    "@arethetypeswrong/cli": "^0.18.2",
     "@catppuccin/palette": "^1.7.1",
     "@pnpm/find-workspace-dir": "^1000.1.0",
     "@types/node": "^22.15.30",
@@ -52,7 +52,7 @@
     "unocss-preset-scrollbar": "^3.2.0",
     "vite": "^6.3.5",
     "vite-plugin-inspect": "^11.1.0",
-    "vitest": "^3.2.2"
+    "vitest": "^3.2.3"
   },
   "pnpm": {
     "overrides": {
