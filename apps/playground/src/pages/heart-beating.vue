@@ -9,7 +9,7 @@ import { ref } from 'vue'
 const canvasRef = ref<HTMLCanvasElement>()
 
 // Get canvas and setup WebGL
-const canvas = document.getElementById('shader')
+const canvas = document.getElementById('shader') as HTMLCanvasElement
 const gl = canvas.getContext('webgl')
 
 // Vertex shader - simply passes coordinates
@@ -148,8 +148,8 @@ const startTime = Date.now()
 let pixelSize = 1 // Default no pixelation
 
 // Setup pixelation slider
-const pixelationSlider = document.getElementById('pixelation')
-const pixelValueDisplay = document.getElementById('pixelValue')
+const pixelationSlider = document.getElementById('pixelation') as HTMLInputElement
+const pixelValueDisplay = document.getElementById('pixelValue') as HTMLSpanElement
 
 pixelationSlider.addEventListener('input', function () {
   pixelSize = Number.parseInt(this.value)
