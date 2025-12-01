@@ -30,7 +30,7 @@
     "@iconify-json/svg-spinners": "^1.2.4",
     "@unocss/reset": "^66.5.9",
     "@vitejs/plugin-vue": "^6.0.2",
-    "@vueuse/core": "^14.0.0",
+    "@vueuse/core": "^14.1.0",
     "@vueuse/motion": "^3.0.3",
     "es-toolkit": "^1.42.0",
     "splitpanes": "^4.0.4",
