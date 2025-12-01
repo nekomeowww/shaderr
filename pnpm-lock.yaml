@@ -52,8 +52,8 @@ importers:
         specifier: ^10.3.1
         version: 10.3.1
       changelogithub:
-        specifier: ^13.16.1
-        version: 13.16.1
+        specifier: ^14.0.0
+        version: 14.0.0
       eslint:
         specifier: ^9.39.1
         version: 9.39.1(jiti@2.6.1)
@@ -1515,6 +1515,14 @@ packages:
       magicast:
         optional: true
 
+  c12@3.3.2:
+    resolution: {integrity: sha512-QkikB2X5voO1okL3QsES0N690Sn/K9WokXqUsDQsWy5SnYb+psYQFGA10iy1bZHj3fjISKsI67Q90gruvWWM3A==}
+    peerDependencies:
+      magicast: '*'
+    peerDependenciesMeta:
+      magicast:
+        optional: true
+
   cac@6.7.14:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
@@ -1554,8 +1562,8 @@ packages:
     resolution: {integrity: sha512-cTZXBcJMl3pudE40WENOakXkcVtrbBpbkmSkM20NdRiUqa4+VYRdXdEsgQ0BNQ6JBE2YymTNWtPKVF7UCTN5+g==}
     hasBin: true
 
-  changelogithub@13.16.1:
-    resolution: {integrity: sha512-h4etOmEM/wtqBWKPbnHoqv2C8moRCCEGTckwwWpvRgr/t1tY0MbyjQbZKy1ETQ7gn1UTQMJkCSRQ4KxiQ+HfSQ==}
+  changelogithub@14.0.0:
+    resolution: {integrity: sha512-VBuDqqU2si6tNjraFIuUEIVP++y77w+jt5CMnLCXjdP6OEBWUcbNYgIPq+aKQH4Yp2KkGKAjqP8dDmJutICk6g==}
     engines: {node: '>=12.0.0'}
     hasBin: true
 
@@ -2087,6 +2095,9 @@ packages:
 
   exsolve@1.0.7:
     resolution: {integrity: sha512-VO5fQUzZtI6C+vx4w/4BWJpg3s/5l+6pRQEHzFRM8WFi4XffSP1Z+4qi7GbjWbvRQEbdIco5mIMq+zX4rPuLrw==}
+
+  exsolve@1.0.8:
+    resolution: {integrity: sha512-LmDxfWXwcTArk8fUEnOfSZpHOJ6zOMUJKOtFLFqJLoKJetuQG874Uc7/Kki7zFLzYybmZhp1M7+98pfMqeX8yA==}
 
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
@@ -2760,9 +2771,6 @@ packages:
   object-deep-merge@2.0.0:
     resolution: {integrity: sha512-3DC3UMpeffLTHiuXSy/UG4NOIYTLlY9u3V82+djSCLYClWobZiS4ivYzpIUWrRY/nfsJ8cWsKyG3QfyLePmhvg==}
 
-  ofetch@1.4.1:
-    resolution: {integrity: sha512-QZj2DfGplQAr2oj9KzceK9Hwz6Whxazmn85yYeVuS3u9XTMOGMRx0kO95MQ+vLsj/S/NwBDMMLU5hpxvI6Tklw==}
-
   ofetch@1.5.1:
     resolution: {integrity: sha512-2W4oUZlVaqAPAil6FUg/difl6YhqhUR7x2eZY4bQCko22UXg3hptq9KLQdqFClV+Wu85UX7hNtdGTngi/1BxcA==}
 
@@ -3253,9 +3261,6 @@ packages:
 
   std-env@3.10.0:
     resolution: {integrity: sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg==}
-
-  std-env@3.9.0:
-    resolution: {integrity: sha512-UGvjygr6F6tpH7o2qyqR6QYpwraIjKSdtzyBdyytFOHmPZY917kwdwLG0RbOjWOnKmnm3PeHjaoLLMie7kPLQw==}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -4197,7 +4202,7 @@ snapshots:
 
   '@nuxt/kit@3.17.4':
     dependencies:
-      c12: 3.3.0
+      c12: 3.3.1
       consola: 3.4.2
       defu: 6.1.4
       destr: 2.0.5
@@ -4212,7 +4217,7 @@ snapshots:
       pathe: 2.0.3
       pkg-types: 2.2.0
       scule: 1.3.0
-      semver: 7.7.2
+      semver: 7.7.3
       std-env: 3.10.0
       tinyglobby: 0.2.15
       ufo: 1.6.1
@@ -5251,6 +5256,22 @@ snapshots:
       perfect-debounce: 2.0.0
       pkg-types: 2.3.0
       rc9: 2.1.2
+    optional: true
+
+  c12@3.3.2:
+    dependencies:
+      chokidar: 4.0.3
+      confbox: 0.2.2
+      defu: 6.1.4
+      dotenv: 17.2.3
+      exsolve: 1.0.8
+      giget: 2.0.0
+      jiti: 2.6.1
+      ohash: 2.0.11
+      pathe: 2.0.3
+      perfect-debounce: 2.0.0
+      pkg-types: 2.3.0
+      rc9: 2.1.2
 
   cac@6.7.14: {}
 
@@ -5287,27 +5308,27 @@ snapshots:
       consola: 3.4.2
       convert-gitmoji: 0.1.5
       mri: 1.2.0
-      node-fetch-native: 1.6.6
-      ofetch: 1.4.1
+      node-fetch-native: 1.6.7
+      ofetch: 1.5.1
       open: 10.2.0
       pathe: 1.1.2
       pkg-types: 1.3.1
       scule: 1.3.0
       semver: 7.7.3
-      std-env: 3.9.0
+      std-env: 3.10.0
       yaml: 2.8.1
     transitivePeerDependencies:
       - magicast
 
-  changelogithub@13.16.1:
+  changelogithub@14.0.0:
     dependencies:
       ansis: 4.2.0
-      c12: 3.3.1
+      c12: 3.3.2
       cac: 6.7.14
       changelogen: 0.5.7
       convert-gitmoji: 0.1.5
       execa: 9.6.0
-      ofetch: 1.4.1
+      ofetch: 1.5.1
       semver: 7.7.3
       tinyglobby: 0.2.15
     transitivePeerDependencies:
@@ -5944,6 +5965,8 @@ snapshots:
 
   exsolve@1.0.7: {}
 
+  exsolve@1.0.8: {}
+
   fast-deep-equal@3.1.3: {}
 
   fast-glob@3.3.3:
@@ -6049,7 +6072,7 @@ snapshots:
       citty: 0.1.6
       consola: 3.4.2
       defu: 6.1.4
-      node-fetch-native: 1.6.6
+      node-fetch-native: 1.6.7
       nypm: 0.5.4
       pathe: 2.0.3
       tar: 6.2.1
@@ -6635,7 +6658,7 @@ snapshots:
       pkg-types: 2.2.0
       postcss: 8.5.6
       postcss-nested: 7.0.2(postcss@8.5.6)
-      semver: 7.7.2
+      semver: 7.7.3
       tinyglobby: 0.2.15
     optionalDependencies:
       typescript: 5.9.3
@@ -6725,12 +6748,6 @@ snapshots:
   object-assign@4.1.1: {}
 
   object-deep-merge@2.0.0: {}
-
-  ofetch@1.4.1:
-    dependencies:
-      destr: 2.0.5
-      node-fetch-native: 1.6.6
-      ufo: 1.6.1
 
   ofetch@1.5.1:
     dependencies:
@@ -7200,8 +7217,6 @@ snapshots:
   stackback@0.0.2: {}
 
   std-env@3.10.0: {}
-
-  std-env@3.9.0: {}
 
   string-width@4.2.3:
     dependencies:

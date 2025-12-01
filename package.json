@@ -41,7 +41,7 @@
     "@unocss/eslint-plugin": "^66.5.9",
     "@unocss/preset-mini": "^66.5.9",
     "bumpp": "^10.3.1",
-    "changelogithub": "^13.16.1",
+    "changelogithub": "^14.0.0",
     "eslint": "^9.39.1",
     "eslint-plugin-import-x": "^4.16.1",
     "rollup": "^4.53.3",
