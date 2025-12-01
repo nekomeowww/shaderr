@@ -34,7 +34,7 @@
     "@vueuse/motion": "^3.0.3",
     "es-toolkit": "^1.42.0",
     "splitpanes": "^4.0.4",
-    "unplugin-vue-router": "^0.17.1",
+    "unplugin-vue-router": "^0.18.0",
     "vue": "^3.5.25",
     "vue-router": "^4.6.3",
     "vue-tsc": "^3.1.5"
