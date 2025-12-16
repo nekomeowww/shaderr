@@ -10,7 +10,8 @@
     "moduleResolution": "bundler",
     "types": [
       "vite/client",
-      "unplugin-vue-router/client"
+      "unplugin-vue-router/client",
+      "@webgpu/types"
     ],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
