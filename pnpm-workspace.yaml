@@ -40,7 +40,7 @@ catalog:
   '@vitejs/plugin-vue': ^6.0.3
   '@vueuse/core': ^14.1.0
   '@vueuse/motion': ^3.0.3
-  '@webgpu/types': ^0.1.67
+  '@webgpu/types': ^0.1.68
   bumpp: ^10.3.2
   changelogithub: ^14.0.0
   es-toolkit: ^1.43.0
