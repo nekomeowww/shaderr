@@ -1,24 +1,7 @@
-catalogMode: prefer
-shellEmulator: true
-
-trustPolicy: no-downgrade
-trustPolicyExclude:
-  - chokidar@4.0.3
-
 packages:
   - examples/**
   - packages/**
   - apps/**
-
-overrides:
-  array-flatten: npm:@nolyfill/array-flatten@^1.0.44
-  axios: npm:feaxios@^0.0.23
-  is-core-module: npm:@nolyfill/is-core-module@^1.0.39
-  isarray: npm:@nolyfill/isarray@^1.0.44
-  safe-buffer: npm:@nolyfill/safe-buffer@^1.0.44
-  safer-buffer: npm:@nolyfill/safer-buffer@^1.0.44
-  side-channel: npm:@nolyfill/side-channel@^1.0.44
-  string.prototype.matchall: npm:@nolyfill/string.prototype.matchall@^1.0.44
 
 catalog:
   '@antfu/eslint-config': ^6.7.3
@@ -46,6 +29,7 @@ catalog:
   es-toolkit: ^1.43.0
   eslint: ^9.39.2
   eslint-plugin-import-x: ^4.16.1
+  gpuu: ^1.0.6
   rollup: ^4.54.0
   splitpanes: ^4.0.4
   taze: ^19.9.2
@@ -62,6 +46,25 @@ catalog:
   vue-router: ^4.6.4
   vue-tsc: ^3.2.1
 
+catalogMode: prefer
+
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
+
+overrides:
+  array-flatten: npm:@nolyfill/array-flatten@^1.0.44
+  axios: npm:feaxios@^0.0.23
+  is-core-module: npm:@nolyfill/is-core-module@^1.0.39
+  isarray: npm:@nolyfill/isarray@^1.0.44
+  safe-buffer: npm:@nolyfill/safe-buffer@^1.0.44
+  safer-buffer: npm:@nolyfill/safer-buffer@^1.0.44
+  side-channel: npm:@nolyfill/side-channel@^1.0.44
+  string.prototype.matchall: npm:@nolyfill/string.prototype.matchall@^1.0.44
+
+shellEmulator: true
+
+trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  - chokidar@4.0.3

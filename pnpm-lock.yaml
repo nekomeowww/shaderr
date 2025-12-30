@@ -81,6 +81,9 @@ catalogs:
     eslint-plugin-import-x:
       specifier: ^4.16.1
       version: 4.16.1
+    gpuu:
+      specifier: ^1.0.6
+      version: 1.0.6
     rollup:
       specifier: ^4.54.0
       version: 4.54.0
@@ -215,6 +218,10 @@ importers:
         version: 4.0.16(@types/node@25.0.3)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)
 
   apps/shaderr:
+    dependencies:
+      gpuu:
+        specifier: 'catalog:'
+        version: 1.0.6
     devDependencies:
       '@iconify-json/carbon':
         specifier: 'catalog:'
@@ -2380,6 +2387,9 @@ packages:
 
   globrex@0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
+
+  gpuu@1.0.6:
+    resolution: {integrity: sha512-g9pC4Hx/2rNulvTDft61gsL+4nkDwxdFOd2Hj6Miv444kxRc/y4Q5mnPVmAxNksWoojTt87U3JgHNHFr0CVkxw==}
 
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
@@ -6058,6 +6068,8 @@ snapshots:
   globals@16.5.0: {}
 
   globrex@0.1.2: {}
+
+  gpuu@1.0.6: {}
 
   graceful-fs@4.2.11: {}
 

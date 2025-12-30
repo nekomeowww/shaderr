@@ -39,5 +39,8 @@
     "vue": "catalog:",
     "vue-router": "catalog:",
     "vue-tsc": "catalog:"
+  },
+  "dependencies": {
+    "gpuu": "catalog:"
   }
 }
