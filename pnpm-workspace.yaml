@@ -10,16 +10,16 @@ catalog:
   '@arethetypeswrong/cli': ^0.18.2
   '@catppuccin/palette': ^1.7.1
   '@iconify-json/carbon': ^1.2.15
-  '@iconify-json/line-md': ^1.2.11
-  '@iconify-json/simple-icons': ^1.2.63
+  '@iconify-json/line-md': ^1.2.13
+  '@iconify-json/simple-icons': ^1.2.64
   '@iconify-json/solar': ^1.2.5
   '@iconify-json/svg-spinners': ^1.2.4
   '@pnpm/find-workspace-dir': ^1000.1.3
   '@types/node': ^25.0.3
-  '@unocss/eslint-config': ^66.5.10
-  '@unocss/eslint-plugin': ^66.5.10
-  '@unocss/preset-mini': ^66.5.10
-  '@unocss/reset': ^66.5.10
+  '@unocss/eslint-config': ^66.5.12
+  '@unocss/eslint-plugin': ^66.5.12
+  '@unocss/preset-mini': ^66.5.12
+  '@unocss/reset': ^66.5.12
   '@vitejs/plugin-vue': ^6.0.3
   '@vueuse/core': ^14.1.0
   '@vueuse/motion': ^3.0.3
