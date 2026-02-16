@@ -22,6 +22,9 @@
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit"
   },
+  "dependencies": {
+    "gpuu": "catalog:"
+  },
   "devDependencies": {
     "@iconify-json/carbon": "catalog:",
     "@iconify-json/line-md": "catalog:",
@@ -39,8 +42,5 @@
     "vue": "catalog:",
     "vue-router": "catalog:",
     "vue-tsc": "catalog:"
-  },
-  "dependencies": {
-    "gpuu": "catalog:"
   }
 }
