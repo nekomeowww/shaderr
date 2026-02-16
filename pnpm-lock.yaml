@@ -64,8 +64,8 @@ catalogs:
       specifier: ^3.0.3
       version: 3.0.3
     '@webgpu/types':
-      specifier: ^0.1.68
-      version: 0.1.68
+      specifier: ^0.1.69
+      version: 0.1.69
     bumpp:
       specifier: ^10.3.2
       version: 10.3.2
@@ -252,7 +252,7 @@ importers:
         version: 3.0.3(vue@3.5.26(typescript@5.9.3))
       '@webgpu/types':
         specifier: 'catalog:'
-        version: 0.1.68
+        version: 0.1.69
       es-toolkit:
         specifier: 'catalog:'
         version: 1.43.0
@@ -2120,8 +2120,8 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  '@webgpu/types@0.1.68':
-    resolution: {integrity: sha512-3ab1B59Ojb6RwjOspYLsTpCzbNB3ZaamIAxBMmvnNkiDoLTZUOBXZ9p5nAYVEkQlDdf6qAZWi1pqj9+ypiqznA==}
+  '@webgpu/types@0.1.69':
+    resolution: {integrity: sha512-RPmm6kgRbI8e98zSD3RVACvnuktIja5+yLgDAkTmxLr90BEwdTXRQWNLF3ETTTyH/8mKhznZuN5AveXYFEsMGQ==}
 
   '@yarnpkg/fslib@3.1.4':
     resolution: {integrity: sha512-Yyguw5RM+xI1Bv0RFbs1ZF5HwU+9/He4YT7yeT722yAlLfkz9IzZHO6a5yStEshxiliPn9Fdj4H54a785xpK/g==}
@@ -7704,7 +7704,7 @@ snapshots:
     dependencies:
       vue: 3.5.26(typescript@5.9.3)
 
-  '@webgpu/types@0.1.68': {}
+  '@webgpu/types@0.1.69': {}
 
   '@yarnpkg/fslib@3.1.4':
     dependencies:
