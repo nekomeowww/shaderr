@@ -23,7 +23,7 @@ overrides:
 catalog:
   '@antfu/eslint-config': ^6.7.3
   '@antfu/ni': ^28.0.0
-  '@antfu/nip': ^0.1.0
+  '@antfu/nip': ^0.1.1
   '@arethetypeswrong/cli': ^0.18.2
   '@catppuccin/palette': ^1.7.1
   '@iconify-json/carbon': ^1.2.15
