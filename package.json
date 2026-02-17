@@ -2,7 +2,7 @@
   "name": "@nekw/shaderr-root",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.26.2",
+  "packageManager": "pnpm@10.29.3",
   "description": "Shaders!",
   "author": {
     "name": "Neko Ayaka",
