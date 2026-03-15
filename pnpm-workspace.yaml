@@ -41,7 +41,7 @@ catalog:
   '@vueuse/core': ^14.2.1
   '@vueuse/motion': ^3.0.3
   '@webgpu/types': ^0.1.69
-  bumpp: ^10.4.1
+  bumpp: ^11.0.0
   changelogithub: ^14.0.0
   es-toolkit: ^1.44.0
   eslint: ^10.0.1
