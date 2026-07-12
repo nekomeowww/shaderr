@@ -16,8 +16,8 @@ catalogs:
       specifier: ^0.1.1
       version: 0.1.1
     '@arethetypeswrong/cli':
-      specifier: ^0.18.4
-      version: 0.18.4
+      specifier: ^0.18.5
+      version: 0.18.5
     '@catppuccin/palette':
       specifier: ^1.7.1
       version: 1.7.1
@@ -155,7 +155,7 @@ importers:
         version: 0.1.1(@pnpm/logger@1001.0.1)(@pnpm/worker@1000.6.4(@pnpm/logger@1001.0.1)(@types/node@25.3.0))(typanion@3.14.0)
       '@arethetypeswrong/cli':
         specifier: 'catalog:'
-        version: 0.18.4
+        version: 0.18.5
       '@catppuccin/palette':
         specifier: 'catalog:'
         version: 1.7.1
@@ -364,13 +364,13 @@ packages:
     deprecated: use @antfu/ni or @rizumu/nai instead
     hasBin: true
 
-  '@arethetypeswrong/cli@0.18.4':
-    resolution: {integrity: sha512-kNWo6LTzGAuLYPpJ7Sgo63whSUeeSuKMlYx6IBgzs4ONEG807gW4hSSENvpeCHzO2H2wIzG5EFl0OKBbqGBAyA==}
+  '@arethetypeswrong/cli@0.18.5':
+    resolution: {integrity: sha512-gM+8vRsQOD/Uc7EnBedUhkG5OCsDWE4uoak5QvomGpMpaky0Eh41p04nIMgrWb8EOmqZUJGc6zz9hsP6E56R7g==}
     engines: {node: '>=20'}
     hasBin: true
 
-  '@arethetypeswrong/core@0.18.4':
-    resolution: {integrity: sha512-M5F0ePyN6h2Z6XxRiyIPqjGbltotXLjR0CKA0uKspsDu0QmgTNYvRb4RSQPMUs2ZXZHCCYpbaZbFbYOXLxCjUA==}
+  '@arethetypeswrong/core@0.18.5':
+    resolution: {integrity: sha512-9ytjzGwxjm9Uz7I9avfbt5vlQt6uk9uRRESzJjqrznl6WKvI6dwYTo+vJ3U02Wrq/mR3iql/PzhvHhKdJIAjDQ==}
     engines: {node: '>=20'}
 
   '@babel/code-frame@7.27.1':
@@ -6113,9 +6113,9 @@ snapshots:
       - supports-color
       - typanion
 
-  '@arethetypeswrong/cli@0.18.4':
+  '@arethetypeswrong/cli@0.18.5':
     dependencies:
-      '@arethetypeswrong/core': 0.18.4
+      '@arethetypeswrong/core': 0.18.5
       chalk: 4.1.2
       cli-table3: 0.6.5
       commander: 10.0.1
@@ -6123,7 +6123,7 @@ snapshots:
       marked-terminal: 7.3.0(marked@9.1.6)
       semver: 7.7.4
 
-  '@arethetypeswrong/core@0.18.4':
+  '@arethetypeswrong/core@0.18.5':
     dependencies:
       '@andrewbranch/untar.js': 1.0.3
       '@loaderkit/resolve': 1.0.4
