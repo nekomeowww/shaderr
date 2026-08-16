@@ -49,7 +49,7 @@ catalog:
   gpuu: ^1.0.6
   rollup: ^4.58.0
   splitpanes: ^4.0.4
-  taze: ^20.0.0
+  taze: ^21.1.0
   tsx: ^4.21.0
   typescript: ^5.9.3
   unbuild: ^3.6.1
