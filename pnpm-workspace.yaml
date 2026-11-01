@@ -32,7 +32,7 @@ catalog:
   '@iconify-json/solar': ^1.2.5
   '@iconify-json/svg-spinners': ^1.2.4
   '@pnpm/find-workspace-dir': ^1000.1.4
-  '@types/node': ^25.3.0
+  '@types/node': ^26.6.6
   '@unocss/eslint-config': ^66.6.0
   '@unocss/eslint-plugin': ^66.6.0
   '@unocss/preset-mini': ^66.6.0
